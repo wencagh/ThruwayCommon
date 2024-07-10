@@ -80,7 +80,9 @@ class CallMessage extends Message implements ActionMessageInterface
      */
     public function setProcedureName($procedureName)
     {
-        $this->procedureName = strtolower($procedureName);
+        //FIX WENCA
+        //$this->procedureName = strtolower($procedureName);
+        $this->procedureName = $procedureName;
     }
 
     /**
